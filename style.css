@@ -8,7 +8,16 @@ body {
   height: 2rem;
 }
 
+/* Old code v1.0
 .video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0,0, .2);
+}
+*/
+
+#videoplayer {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -17,14 +26,14 @@ body {
 
 .caption {
   position: absolute;
-  top: 18%;
+  top: 23%;
   width: 100%;
   color: white;
 }
 
 .lead {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 11%;
+  padding-right: 11%;
 }
 
 @media (max-width: 768px) {
@@ -61,8 +70,8 @@ body {
   }
   
   .lead {
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
